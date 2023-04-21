@@ -182,13 +182,16 @@ faq = {
                               QuickReplyButton(action=MessageAction(
                                   label="鴻海", text="Foxconn")
                               )
+                              QuickReplyButton(action=MessageAction(
+                                  label="聯發科", text="MediaTek")
+                              )
                           ])
                           ),
     '蘋果': TextSendMessage(
-        text="蘋果 2023/4/21 買點:157，賣點159"
+        text="蘋果 2023/4/21 買點:157，賣點161"
     ),
     '谷歌': TextSendMessage(
-        text="谷歌 2023/4/21 買點:90，賣點101"
+        text="谷歌 2023/4/21 買點:102，賣點105.5"
     ),
     '微軟': TextSendMessage(
         text="微軟 2023/4/21 買點:262，賣點274"
@@ -197,22 +200,25 @@ faq = {
         text="臉書 2023/4/21 買點:190，賣點203"
     ),
     '輝達': TextSendMessage(
-        text="輝達 2023/4/21 買點:228，賣點260"
+        text="輝達 2023/4/21 買點:224，賣點246"
     ),
     '超微': TextSendMessage(
         text="超微 2023/4/21 買點:88，賣點95"
     ),
     '特斯拉': TextSendMessage(
-        text="特斯拉 2023/4/21 買點:165，賣點174"
+        text="特斯拉 2023/4/21 買點:147，賣點163"
     ),
     '亞馬遜': TextSendMessage(
         text="亞馬遜 2023/4/21 買點:89，賣點95"
     ),
     'TSMC': TextSendMessage(
-        text="台積電 2023/4/21 買點:511，賣點521"
+        text="台積電 2023/4/21 買點:485，賣點506"
     ),
     'Foxconn': TextSendMessage(
         text="鴻海 2023/4/21 買點:98，賣點103"
+    ),
+    'MediaTek': TextSendMessage(
+        text="聯發科 2023/4/21 買點:590，賣點618"
     ),
     '營業地址': LocationSendMessage(
         title='my location',
