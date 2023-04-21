@@ -181,7 +181,7 @@ faq = {
                               ),
                               QuickReplyButton(action=MessageAction(
                                   label="鴻海", text="Foxconn")
-                              )
+                              ),
                               QuickReplyButton(action=MessageAction(
                                   label="聯發科", text="MediaTek")
                               )
