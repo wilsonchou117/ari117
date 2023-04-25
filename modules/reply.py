@@ -218,7 +218,7 @@ faq = {
         text="鴻海 2023/4/25 買點:98，賣點103"
     ),
     'MediaTek': TextSendMessage(
-        text="聯發科 2023/4/25 買點:665，賣點683"
+        text="聯發科 2023/4/25 買點:635，賣點650"
     ),
     '營業地址': LocationSendMessage(
         title='my location',
