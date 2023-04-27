@@ -215,7 +215,7 @@ faq = {
         text="台積電 2023/4/27 買點:482，賣點495"
     ),
     'Foxconn': TextSendMessage(
-        text="鴻海 2023/4/27 買點:98，賣點101"
+        text="鴻海 2023/4/27 買點:99，賣點101"
     ),
     'MediaTek': TextSendMessage(
         text="聯發科 2023/4/27 買點:630，賣點640"
