@@ -212,13 +212,13 @@ faq = {
         text="亞馬遜 2023/5/4 買點:97，賣點101"
     ),
     'TSMC': TextSendMessage(
-        text="台積電 2023/5/4 買點:494，賣點497"
+        text="台積電 2023/5/5 買點:494，賣點497"
     ),
     'Foxconn': TextSendMessage(
-        text="鴻海 2023/5/4 買點:99，賣點101"
+        text="鴻海 2023/5/5 買點:99，賣點101"
     ),
     'MediaTek': TextSendMessage(
-        text="聯發科 2023/5/4 買點:653，賣點673"
+        text="聯發科 2023/5/5 買點:653，賣點673"
     ),
     '營業地址': LocationSendMessage(
         title='my location',
