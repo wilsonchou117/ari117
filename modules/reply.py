@@ -188,37 +188,37 @@ faq = {
                           ])
                           ),
     '蘋果': TextSendMessage(
-        text="蘋果 2023/5/8 買點:167，賣點170"
+        text="蘋果 2023/5/9 買點:167，賣點170"
     ),
     '谷歌': TextSendMessage(
-        text="谷歌 2023/5/8 買點:101，賣點110"
+        text="谷歌 2023/5/9 買點:101，賣點110"
     ),
     '微軟': TextSendMessage(
-        text="微軟 2023/5/8 買點:269，賣點310"
+        text="微軟 2023/5/9 買點:269，賣點310"
     ),
     '臉書': TextSendMessage(
-        text="臉書 2023/5/8 買點:130，賣點150"
+        text="臉書 2023/5/9 買點:130，賣點150"
     ),
     '輝達': TextSendMessage(
-        text="輝達 2023/5/8 買點:261，賣點277"
+        text="輝達 2023/5/9 買點:261，賣點277"
     ),
     '超微': TextSendMessage(
-        text="超微 2023/5/8 買點:81.5，賣點89"
+        text="超微 2023/5/9 買點:81.5，賣點89"
     ),
     '特斯拉': TextSendMessage(
-        text="特斯拉 2023/5/8 買點:161，賣點180"
+        text="特斯拉 2023/5/9 買點:161，賣點180"
     ),
     '亞馬遜': TextSendMessage(
-        text="亞馬遜 2023/5/8 買點:97，賣點101"
+        text="亞馬遜 2023/5/9 買點:97，賣點101"
     ),
     'TSMC': TextSendMessage(
-        text="台積電 2023/5/8 買點:494，賣點497"
+        text="台積電 2023/5/9 買點:506，賣點517"
     ),
     'Foxconn': TextSendMessage(
-        text="鴻海 2023/5/8 買點:99，賣點101"
+        text="鴻海 2023/5/9 買點:99，賣點101"
     ),
     'MediaTek': TextSendMessage(
-        text="聯發科 2023/5/8 買點:653，賣點673"
+        text="聯發科 2023/5/9 買點:588，賣點684"
     ),
     '營業地址': LocationSendMessage(
         title='my location',
