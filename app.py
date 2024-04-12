@@ -10,6 +10,11 @@ from linebot import (
 from linebot.exceptions import (
     InvalidSignatureError
 )
+import tempfile, os
+import datetime
+import openai
+import time
+import traceback
 
 # 如需增加其他處理器請參閱以下網址的 Message objects 章節
 # https://github.com/line/line-bot-sdk-python
@@ -29,11 +34,7 @@ from linebot.models import (
     CarouselTemplate,
     CarouselColumn
 )
-import tempfile, os
-import datetime
-import openai
-import time
-import traceback
+
 
 from modules.reply import faq,menu
 from modules.currency import get_exchange_table
@@ -72,7 +73,7 @@ def GPT_response(text):
 
 
 
-@app.route("/", methods=['POST'])
+@app.route("/callback", methods=['POST'])
 def callback():
     # 當LINE發送訊息給機器人時，從header取得 X-Line-Signature
     # X-Line-Signature 用於驗證頻道是否合法
