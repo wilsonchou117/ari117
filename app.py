@@ -123,6 +123,14 @@ def handle_message(event):
         bid=table3[user_msg]["bid3"]
         report=f"{user_msg} 現在價格{bid}"
         reply=TextSendMessage(text=report)
+    
+    try:
+        GPT_answer = GPT_response(user_msg)
+        print(GPT_answer)
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(GPT_answer))
+    except:
+        print(traceback.format_exc())
+        line_bot_api.reply_message(event.reply_token, TextSendMessage('你所使用的OPENAI API key額度可能已經超過，請於後台Log內確認錯誤訊息'))
 
 
 
@@ -132,6 +140,22 @@ def handle_message(event):
     line_bot_api.reply_message(
         event.reply_token,
         reply)
+
+
+    
+
+
+
+#@handler.add(MessageEvent, message=TextMessage)
+#def handle_message(event):
+#    msg = event.message.text
+#    try:
+#        GPT_answer = GPT_response(msg)
+#        print(GPT_answer)
+#        line_bot_api.reply_message(event.reply_token, TextSendMessage(GPT_answer))
+#    except:
+#        print(traceback.format_exc())
+#        line_bot_api.reply_message(event.reply_token, TextSendMessage('你所使用的OPENAI API key額度可能已經超過，請於後台Log內確認錯誤訊息'))
 
 
 
