@@ -59,7 +59,7 @@ faq = {
                     text='點選下方按鈕查詢美股即時報價',
                     actions=[
                         MessageAction(
-                            label='查詢亞馬遜',
+                            label='查詢亞馬遜1',
                             text='AMZN'
                         ),
                         MessageAction(
